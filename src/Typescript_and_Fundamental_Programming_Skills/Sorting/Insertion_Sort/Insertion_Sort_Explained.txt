@@ -1,0 +1,9 @@
+Insertion sort is a simple sorting algorithm that works by iterating through an array of elements one at a time and inserting each element into its correct position in a sorted sub-array to the left of it.
+
+The algorithm works as follows:
+
+Start with the second element in the array.
+Compare the second element with the first element. If the second element is smaller, swap them.
+Move to the third element and compare it with the second element. If the third element is smaller than the second, swap them. 
+Then compare the second element with the first element, and swap them if needed.
+Repeat this process for each element in the array, comparing each element with the ones to its left and swapping as needed to keep the left sub-array sorted.
